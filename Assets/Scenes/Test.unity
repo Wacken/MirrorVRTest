@@ -452,6 +452,7 @@ GameObject:
   - component: {fileID: 616642268}
   - component: {fileID: 616642267}
   - component: {fileID: 616642266}
+  - component: {fileID: 616642270}
   m_Layer: 0
   m_Name: NetworkManager
   m_TagString: Untagged
@@ -521,7 +522,7 @@ MonoBehaviour:
   offlineScene: 
   onlineScene: 
   transport: {fileID: 616642267}
-  networkAddress: localhost
+  networkAddress: 192.168.100.188
   maxConnections: 100
   authenticator: {fileID: 0}
   playerPrefab: {fileID: 6419919358484320401, guid: dd54ed5ca7aeda646a6b50d2da227026, type: 3}
@@ -542,6 +543,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &616642270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616642265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ceb3adfe7dd7c64a95461fbbf5965bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ip_adress: 192.168.100.191
+  should_autoconnect: 1
 --- !u!1 &1093500352
 GameObject:
   m_ObjectHideFlags: 0
